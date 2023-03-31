@@ -4,14 +4,14 @@ import "./Color.css";
 
 const Color = ({colors}) => {
     const {color} = useParams();
-    if (colors.indexOf(color) === -1) return <Redirect to="/colors"/>
+    if (Object.keys(colors).indexOf(color) === -1) return <Redirect to="/colors"/>
     return (
         <div className="Color">
             <h3>So Pretty!</h3>
             <div
                 className="Color-circle"
                 style={{
-                    backgroundColor: color
+                    backgroundColor: colors[color]
                 }}
             >
             </div>
