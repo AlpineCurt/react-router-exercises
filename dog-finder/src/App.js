@@ -14,7 +14,7 @@ App.defaultProps = {
     {
       name: "Whiskey",
       age: 5,
-      src: "pics/whiskey.jpg",
+      src: "/pics/whiskey.jpg",
       facts: [
         "Whiskey loves eating popcorn.",
         "Whiskey is a terrible guard dog.",
@@ -24,7 +24,7 @@ App.defaultProps = {
     {
       name: "Duke",
       age: 3,
-      src: "pics/duke.jpg",
+      src: "/pics/duke.jpg",
       facts: [
         "Duke believes that ball is life.",
         "Duke likes snow.",
@@ -34,7 +34,7 @@ App.defaultProps = {
     {
       name: "Perry",
       age: 4,
-      src: "pics/perry.jpg",
+      src: "/pics/perry.jpg",
       facts: [
         "Perry loves all humans.",
         "Perry demolishes all snacks.",
@@ -44,7 +44,7 @@ App.defaultProps = {
     {
       name: "Tubby",
       age: 4,
-      src: "pics/tubby.jpg",
+      src: "/pics/tubby.jpg",
       facts: [
         "Tubby is really stupid.",
         "Tubby does not like walks.",
